@@ -37,7 +37,13 @@ public class Calculator {
             default:
                 System.out.println("올바른 연산자를 입력하세요.");
                 return; // 프로그램 종료
-        }
+	    
+	    default:
+                System.out.println("올바른 연산자를 입력하세요.");
+                return; // 프로그램 종료
+//is 작업추가
+
+	}
 
         System.out.println("결과: " + result);
 
