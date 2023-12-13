@@ -14,9 +14,11 @@ public class Calculator {
         System.out.print("사용할 연산자를 입력하세요 (+, -, *, /): ");
         char operator = scanner.next().charAt(0);
 //js update close
+ System.out.print("사용할 연산자를 입력하세요 (+, -, *, /): ");
+        char operator = scanner.next().charAt(0);
+//is 작업추가
         double result;
-
-        switch (operator) {
+	switch (operator) {
             case '+':
                 result = num1 + num2;
                 break;
@@ -36,8 +38,7 @@ public class Calculator {
                 break;
             default:
                 System.out.println("올바른 연산자를 입력하세요.");
-                return; // 프로그램 종료
-	    
+                return; // 프로그램 종료	    
 	    default:
                 System.out.println("올바른 연산자를 입력하세요.");
                 return; // 프로그램 종료
