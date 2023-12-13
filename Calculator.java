@@ -10,10 +10,10 @@ public class Calculator {
 
         System.out.print("두 번째 숫자를 입력하세요: ");
         double num2 = scanner.nextDouble();
-
+//js update  
         System.out.print("사용할 연산자를 입력하세요 (+, -, *, /): ");
         char operator = scanner.next().charAt(0);
-
+//js update close
         double result;
 
         switch (operator) {
