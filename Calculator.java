@@ -1,3 +1,7 @@
+         //25
+	 int my_add(int number1, int number2){
+// 2
+		int my_add(int number1, int number2){
 //1
 
            int my_add(int number1, int number2){
